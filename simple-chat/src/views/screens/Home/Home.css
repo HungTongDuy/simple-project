@@ -1,0 +1,213 @@
+.left-messenger {
+    box-sizing: border-box;
+    height: 50px;
+    justify-content: space-between;
+    padding: 8px;
+    width: 100%;
+}
+
+.left-messenger .title {
+    flex-basis: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 7px 0 0;
+    overflow: hidden;
+    text-align: center;
+}
+.list-user-chat {
+    overflow-y: hidden;
+    position: relative;
+}
+.user-item-content img {
+    display: block;
+}
+.user-item-content {
+    align-items: center;
+    background-color: rgba(0, 0, 0, .05);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+}
+.banner-messenger {
+    border-bottom: 1px solid rgba(0, 0, 0, .10);
+    box-sizing: border-box;
+    height: 50px;
+    justify-content: space-between;
+    width: 100%;
+}
+.user-item {
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+.item-avt {
+    align-items: center;
+    margin-right: 9px;
+    display: flex;
+}
+.item-content {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+}
+.item-content:hover {
+    text-decoration: none;
+}
+a {
+    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+}
+.item-user-content {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+}
+.item-user {
+    height: 64px;
+    position: relative;
+    display: flex;
+}
+.item-name {
+    flex: 1 1 auto;
+    justify-content: center;
+    min-width: 0;
+    padding: 0 12px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.item-user-name, .item-user-message {
+    display: flex;
+    justify-content: space-between;
+}
+.item-user-name .user-name {
+    flex: 1 1 0%;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 1);
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.viewed .user-name {
+    font-weight: 400;
+}
+.item-name .timestamp {
+    color: rgba(0, 0, 0, .40);
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 4px;
+    border-bottom: none;
+    text-decoration: none;
+}
+.item-message-newest {
+    flex: 1 1 0%;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    font-weight: bold;
+    height: 18px;
+    margin-right: 20px;
+    color: #000;
+}
+.viewed .item-message-newest {
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+}
+.banner-message-author {
+    border-bottom: 1px solid rgba(0, 0, 0, .10);
+    box-sizing: border-box;
+    height: 58px;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+    z-index: 201;
+}
+.message {
+    margin: 0 10px 0 0;
+    padding: 0 20px 0 0;
+    position: relative;
+    overflow-y: auto;
+    justify-content: flex-start;
+    height: 80vh;
+    /* scroll-behavior: smooth; */
+}
+.new-message {
+    /* border-top: 1px solid rgba(0, 0, 0, .10); */
+    z-index: 201;
+    /* padding-top: 10px; */
+    /* position: fixed; */
+    bottom: 30px;
+    width: 820px;
+    margin-top: 38px;
+    justify-content: flex-end;
+}
+#new-message {
+    height: 50px;
+}
+.content-message {
+    position: relative;
+    height: 100%;
+    float: left;
+    z-index: 202;
+    margin-top: 10px;
+}
+
+.btn-send-message {
+    height: 50px;
+    width: 80px;
+    float: right;
+}
+.main-user {
+    background-color: #0084ff;
+}
+.logout {
+    display: inline-block;
+    float: right;
+}
+.banner-message-author .title {
+    font-size: 32px;
+    display: inline-block;
+}
+.form-new-message {
+    display: flex;
+    margin: 0 -30px;
+}
+.center-messenger {
+    display: flex;
+    flex-direction: column;
+}
+.new-conversation {
+    display: inline-block;
+    float: right;
+}
+.banner-messenger .title {
+    display: inline-block;
+    height: 20px;
+}
+.message-row {
+    float: left;
+    display: block;
+    width: 100%;
+}
+.message-item {
+    max-width: 55%;
+    margin: 2px 0;
+    padding: 6px 12px;
+}
+.main-user {
+    float: right;
+    clear: right;
+}
+.other-user {
+    float: left;
+    clear: left;
+}

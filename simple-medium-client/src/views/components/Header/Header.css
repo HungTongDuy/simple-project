@@ -1,0 +1,20 @@
+#alert-dialog-title {
+    text-align: center;
+}
+
+.dialog-text {
+    margin: 0 auto !important;
+    text-align: center;
+}
+
+.avatar {
+    float: right;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-top: -10px;
+    font-size: 42px!important;
+}
+.signup-btn {
+    margin-left: 10px;
+}

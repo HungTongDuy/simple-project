@@ -1,0 +1,53 @@
+.footer {
+    color: #dbe3e8;
+    width: 100%;
+    align-self: flex-end;
+}
+
+.bg-dark {
+    background-color: #0b1a33 !important;
+}
+
+.pt-2,
+.py-2 {
+    padding-top: 1.5rem !important;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.justify-content-md-between {
+    justify-content: space-between !important;
+}
+
+.d-md-flex {
+    display: flex !important;
+}
+
+.footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.pb-1,
+.py-1 {
+    padding-bottom: 1rem !important;
+}
+
+.pt-1,
+.py-1 {
+    padding-top: 1rem !important;
+}
+.footer .link {
+    color: #fff!important;
+}

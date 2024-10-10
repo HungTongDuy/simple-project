@@ -1,0 +1,206 @@
+body,
+html {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.018);
+  color: rgba(0, 0, 0, 0.75);
+  font-family: 'Nunito'; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background-color: #ffffff;
+  margin: 0 !important; }
+
+.card {
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 20px;
+  display: block;
+  float: left; }
+
+.text-center {
+  text-align: center; }
+
+.header {
+  margin-bottom: 20px;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1030;
+  background-color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+  height: 60px; }
+
+.extremePostPreview-image {
+  float: right; }
+
+.extremePostPreview-image img {
+  width: 100%; }
+
+.extremePostPreview-post {
+  text-align: left !important;
+  margin-right: 24px !important;
+  display: inline-block; }
+
+.card-header .title {
+  overflow: hidden !important;
+  max-height: 84px !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3 !important;
+  -webkit-box-orient: vertical;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  line-height: 28px !important;
+  transform: translateY(-0.72px);
+  letter-spacing: -0.42px !important; }
+
+.extremeHero-titleClamp .title {
+  letter-spacing: -0.42px !important;
+  margin-bottom: 5px; }
+
+.extremeHero-post .title {
+  margin-bottom: 15px; }
+
+.extremeHero-postContent .title {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3 !important;
+  -webkit-box-orient: vertical;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  line-height: 28px !important;
+  transform: translateY(-0.72px);
+  margin-top: 0; }
+
+.extremeHero-post {
+  width: 100%; }
+
+.extremeHero-largeCard {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin-right: 24px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  display: inline-block;
+  padding-right: 10px !important; }
+
+.extremeHero-post img {
+  width: 100%;
+  max-height: 250px; }
+
+.extremeHero-smallCardContainer {
+  float: right;
+  padding-left: 10px !important; }
+
+.extremeHero-image {
+  float: left;
+  display: inline-block;
+  padding-right: 10px; }
+
+.extremeHero-image img {
+  width: 100px;
+  height: 100px; }
+
+.streamItem .extremeHero-postContent {
+  float: left;
+  display: inline-block;
+  padding-left: 10px; }
+
+.homeTopStream {
+  border-bottom: 1px solid #000;
+  padding-bottom: 25px;
+  width: 100%;
+  min-height: 400px; }
+
+.homeCenterStream {
+  margin-top: 30px; }
+
+.extremeHero-postContent {
+  display: block;
+  float: left;
+  height: 100%;
+  width: 100%;
+  margin-top: 10px; }
+
+.extremeHero-titleClamp {
+  overflow: hidden; }
+
+.extremeHero-content {
+  height: 60px; }
+
+.sign-in-button {
+  margin-top: 5px;
+  margin-right: 10px;
+  float: right; }
+
+.header-logo {
+  width: 20%;
+  display: inline-block; }
+
+.header-account {
+  width: 20%;
+  display: inline-block;
+  margin-top: 5px; }
+
+.js-metabarLogoCentered {
+  width: 100%;
+  float: left;
+  display: flex;
+  margin-top: 10px; }
+
+.menu.header-menu {
+  width: 60%;
+  display: inline-block;
+  margin-top: 5px; }
+
+svg.svgIcon-use {
+  margin-top: 5px; }
+
+.sign-in-button .button {
+  padding: 0.6em 1em 0.7em 1em; }
+
+.button.green-border-button {
+  color: #00ab6b !important;
+  border-color: #00ab6b;
+  background-color: #fff; }
+
+.button {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.6em 1em 0.7em 1em;
+  border-radius: 20px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  outline: none;
+  -webkit-transition: all .1s;
+  -o-transition: all .1s;
+  transition: all .1s; }
+
+.extremePostPreview .title {
+  font-size: 18px !important; }
+
+.extremePostPreview {
+  display: flex;
+  float: left;
+  width: 100%; }
+
+p.mt-5.text-muted {
+  display: block;
+  float: left; }
+
+.extremeHero-byline {
+  margin-top: 10px; }
+
+.extremeHero-byline p {
+  margin-top: 5px;
+  margin-bottom: 0; }

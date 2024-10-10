@@ -1,0 +1,64 @@
+span.picture_upload {
+    border: 1px solid rgba(0,0,0,.44);
+    border-radius: 50%;
+    margin: 2px;
+    color: rgba(0,0,0,.44);
+    display: inline-block;
+    float: left;
+    margin-left: -40px;
+    -webkit-transition: all .1s;
+    -o-transition: all .1s;
+    transition: all .1s;
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+
+.fa-camera {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+#title-article {
+    font-size: 36px;
+}
+
+.publish-button {
+    background-color: #00ab6b !important;
+}
+
+.green-border-button div {
+    background-color: #00ab6b !important;
+}
+
+.add-article-component .textField {
+    width: 100%;
+}
+
+.ql-container {
+    min-height: 10em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background: #fefcfc;
+}
+
+.ql-toolbar {
+    background: #eaecec;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom: none;
+}
+
+.ql-editor {
+    min-height: 20em;
+    overflow: scroll;
+    height: 370px;
+}
+
+#image_preview {
+    width: 100%;
+}
